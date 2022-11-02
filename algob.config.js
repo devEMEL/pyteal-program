@@ -4,8 +4,7 @@
 const { mkAccounts } = require("@algo-builder/algob");
 let accounts = mkAccounts([
   {
-    // This account is created using `make setup-master-account` command from our
-    // `/infrastructure` directory. It already has many ALGOs
+
     name: "master",
     addr: process.env.ADDR_CREATOR,
     mnemonic: process.env.MNEMONIC_CREATOR,
